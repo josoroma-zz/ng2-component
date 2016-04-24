@@ -52,3 +52,11 @@ npm install
 ```
 npm start
 ```
+
+## Test
+
+ - http://localhost:9876/debug.html
+
+```
+npm test
+```
