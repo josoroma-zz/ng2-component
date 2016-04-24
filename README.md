@@ -38,13 +38,10 @@ npm install
 
 ## Start App
 
-### ES5 Transpilation and Maps
+### Compilation, Maps and Specs
 
  - ng2-component/app/josoroma.app.js
  - ng2-component/app/josoroma.app.js.map
-
-### Specs
-
  - ng2-component/app/josoroma.app.spec.js
  - ng2-component/app/josoroma.app.spec.js.map
 
@@ -53,9 +50,23 @@ npm install
 npm start
 ```
 
-## Test
+## Unit Test
 
  - http://localhost:9876/debug.html
+
+### Karma
+
+ - https://karma-runner.github.io
+
+A simple tool that allows you to execute JavaScript code in multiple real browsers.
+
+Karma is not a testing framework, nor an assertion library. Karma just launches a HTTP server, and generates the test runner HTML file we probably already know from our favourite testing framework. So for testing purposes we can use pretty much anything we like.
+
+### Jasmine
+
+ - http://jasmine.github.io/2.0/introduction.html
+
+Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework.
 
 ```
 npm test
@@ -87,3 +98,7 @@ Directives, and in particular components, are the most important part of Angular
 Some components will depend on other components and services. The dependency injection module will provide those. It will construct the component tree, which is the core of any Angular 2 application.
 
 Finally, property bindings and zones is what makes Angular 2 applications interactive.
+
+### Reference:
+
+ - http://victorsavkin.com/post/118372404541/the-core-concepts-of-angular-2
