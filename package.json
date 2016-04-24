@@ -15,17 +15,24 @@
     "typings": "typings",
     "webdriver:update": "webdriver-manager update"
   },
-  "keywords": ["angular2", "typescript", "quickstart", "walkthrough"],
+  "keywords": [
+    "angular2",
+    "typescript",
+    "quickstart",
+    "walkthrough"
+  ],
   "author": "josoroma.com",
   "license": "MIT",
   "dependencies": {
+    "a2-in-memory-web-api": "^0.1.15",
     "angular2": "2.0.0-beta.15",
-    "systemjs": "0.19.26",
+    "bootstrap": "^3.3.6",
     "es6-shim": "^0.35.0",
+    "ng2-bootstrap": "^1.0.13",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.2",
-    "zone.js": "0.6.10",
-    "a2-in-memory-web-api": "^0.1.15"
+    "systemjs": "0.19.26",
+    "zone.js": "0.6.10"
   },
   "devDependencies": {
     "canonical-path": "0.0.2",

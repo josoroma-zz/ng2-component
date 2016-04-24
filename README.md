@@ -1,5 +1,9 @@
 # Angular 2 Walkthrough
 
+![Angular 2 Walkthrough](cover.png)
+
+ - [Angular 2 Quickstart](https://github.com/angular/quickstart)
+
 ## TypeScript Config
 
 ```
@@ -45,18 +49,17 @@ npm install
  - ng2-component/app/josoroma.app.spec.js
  - ng2-component/app/josoroma.app.spec.js.map
 
-
 ```
 npm start
 ```
 
-## Unit Test
+ - http://localhost:3000
 
- - http://localhost:9876/debug.html
+## Unit Test
 
 ### Karma
 
- - https://karma-runner.github.io
+ - [Karma Runner](https://karma-runner.github.io)
 
 A simple tool that allows you to execute JavaScript code in multiple real browsers.
 
@@ -64,13 +67,15 @@ Karma is not a testing framework, nor an assertion library. Karma just launches 
 
 ### Jasmine
 
- - http://jasmine.github.io/2.0/introduction.html
+ - [Jasmine DDT](http://jasmine.github.io/2.0/introduction.html)
 
 Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework.
 
 ```
 npm test
 ```
+
+ - http://localhost:9876/debug.html
 
 ### Unit Tests Output
 
@@ -99,6 +104,14 @@ Some components will depend on other components and services. The dependency inj
 
 Finally, property bindings and zones is what makes Angular 2 applications interactive.
 
-### Reference:
+Reference: [The Core Concepts of Angular 2](http://victorsavkin.com/post/118372404541/the-core-concepts-of-angular-2).
 
- - http://victorsavkin.com/post/118372404541/the-core-concepts-of-angular-2
+## Native Angular2 Directives for Bootstrap
+
+ - [ng2-bootstrap](https://github.com/valor-software/ng2-bootstrap)
+
+```
+npm install --save bootstrap
+
+npm install --save ng2-bootstrap
+```
