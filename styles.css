@@ -1,0 +1,24 @@
+/* Master Styles */
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  padding: 24px;
+  padding-bottom: 0;
+}
+
+content {
+  padding: 20px;
+  font-size: 16px;
+}
+
+footer {
+  padding: 20px;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 22px;
+}
