@@ -1,7 +1,7 @@
 
 describe('Walkthrough E2E Tests', function () {
 
-	var expectedMsg = 'Angular 2 App';
+	var expectedMsg = 'Header';
 
 
   beforeEach(function () {

@@ -40,13 +40,13 @@ npm install
 
 ### ES5 Transpilation and Maps
 
- - ng2-component/app/josoroma.app.component.js
- - ng2-component/app/josoroma.app.component.js.map
+ - ng2-component/app/josoroma.app.js
+ - ng2-component/app/josoroma.app.js.map
 
 ### Specs
 
- - ng2-component/app/josoroma.app.component.spec.js
- - ng2-component/app/josoroma.app.component.spec.js.map
+ - ng2-component/app/josoroma.app.spec.js
+ - ng2-component/app/josoroma.app.spec.js.map
 
 
 ```
@@ -59,6 +59,12 @@ npm start
 
 ```
 npm test
+```
+
+### Unit Tests Output
+
+```
+chrome _test-output/tests.html
 ```
 
 ## Components are self-describing
